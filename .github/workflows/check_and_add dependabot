@@ -1,0 +1,15 @@
+name: Check and Add Dependabot
+
+on:
+  push:
+    branches:
+      - main  # Change to your default branch
+
+jobs:
+  check-add-dependabot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check and Add Dependabot
+        uses: ./github/actions/check-dependabot
+        with:
+          repo-dependabot-yml: "https://raw.githubusercontent.com/abhipost12/Dependabot_composite/main/.github/actions/check-dependabot/dependabot.yml"  # Change to your raw URL
