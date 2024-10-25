@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check and Add Dependabot
-        uses: ./github/actions/check-dependabot
+        uses: ./github/actions/Dependabot_composite
         with:
           repo-dependabot-yml: "https://raw.githubusercontent.com/abhipost12/Dependabot_composite/main/.github/actions/check-dependabot/dependabot.yml"  # Change to your raw URL
