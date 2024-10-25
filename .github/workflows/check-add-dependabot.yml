@@ -13,4 +13,4 @@ jobs:
       - name: Check and Add Dependabot
         uses: abhipost12/Dependabot_composite@main 
         with:
-          repo-dependabot-yml: "https://raw.githubusercontent.com/abhipost12/Dependabot_composite/.github/actions/check_dependabot/action.yml"  # Change to your raw URL
+          repo-dependabot-yml: "https://github.com/abhipost12/Dependabot_composite/blob/main/.github/actions/check_dependabot/action.yml"  # Change to your raw URL
