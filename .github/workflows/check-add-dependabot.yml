@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - main  # Change to your default branch
-   workflow_dispatch:
-
+  workflow_dispatch:  # Allows manual triggering of the workflow
+  
 jobs:
   check-add-dependabot:
     runs-on: ubuntu-latest
